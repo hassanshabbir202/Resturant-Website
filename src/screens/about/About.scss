@@ -1,0 +1,26 @@
+.aboutBox{
+    height: 550px;
+    width: 100vw;
+    background-color: #fff;
+    margin-top: 10vh;
+}
+.fBox{
+    width: 580px;
+    font-size: 16px;
+    line-height: 25px;
+}
+.aboutBox{
+    display: flex;
+    justify-content: space-around;
+}
+.sBox img{
+    height: 380px;
+    width: 550px;
+}
+.fBox  h1{
+    margin-top: 6vh;
+    color: #816712;
+}
+.fBox p{
+    margin-top: 3vh;
+}

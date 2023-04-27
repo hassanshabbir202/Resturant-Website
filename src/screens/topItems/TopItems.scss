@@ -1,0 +1,32 @@
+.imageStyle {
+  height: 150px;
+  width: 20%;
+}
+.topItemCards {
+  display: flex;
+}
+.cartBtn:focus{
+  background-color: #816712;
+}
+.cards {
+  display: flex;
+  justify-content: center;
+}
+#allCartBtnUse{
+ position: absolute;
+ right: 5%;
+ bottom: 4%;
+ border: none;
+ outline: none;
+ background-color: #816712;
+ padding: 0.65rem 1.4rem;
+ border-radius: 6px;
+ font-weight: bold;
+ text-transform: uppercase;
+ cursor: pointer;
+ color: #fff;
+}
+#allCartBtnUse:hover{
+  background-color: #5c4b11;
+  cursor: pointer;
+}

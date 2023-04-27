@@ -1,0 +1,19 @@
+.topImages{
+    display: flex;
+    justify-content: space-around;
+}
+.fOne{
+    transform: rotate(-25deg);
+    height: 230px;
+    margin-top: 8vh;
+    margin-left: -2vw;
+}
+.sTwo{
+    transform: rotate(30deg);
+    height: 200px;
+    margin-top: 10vh;
+    margin-left: 28vw;
+}
+.login_bg{
+    margin-top: -35vh;
+}

@@ -1,0 +1,83 @@
+.mainCounterContainer {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 20vh 0vh 20vh 0vh;
+    flex-wrap: wrap;
+}
+.firstCount{
+    h1{
+        font-size: 50px;
+    }
+}
+.secondCount{
+    h1{
+        font-size: 50px;
+    }
+}
+.thirdCount{
+    h1{
+        font-size: 50px;
+    }
+}
+.fourthCount{
+    h1{
+        font-size: 50px;
+    }
+}
+.firstIcon {
+    p{
+        display: flex;
+        justify-content: center;
+    }
+}
+.secondIcon {
+    p{
+        display: flex;
+        justify-content: center;
+    }
+}
+.thirdIcon {
+    p{
+        display: flex;
+        justify-content: center;
+    }
+}
+.fourthIcon {
+    p{
+        display: flex;
+        justify-content: center;
+    }
+}
+
+.firstText{
+    display: flex;
+    justify-content: center;
+    p{
+        color: gray;
+        font-size: 12px;
+    }
+}
+.secondText{
+    display: flex;
+    justify-content: center;
+    p{
+        color: gray;
+        font-size: 12px;
+    }
+}
+.thirdText{
+    display: flex;
+    justify-content: center;
+    p{
+        color: gray;
+        font-size: 12px;
+    }
+}
+.fourthText{
+    display: flex;
+    justify-content: center;
+    p{
+        color: gray;
+        font-size: 12px;
+    }
+}

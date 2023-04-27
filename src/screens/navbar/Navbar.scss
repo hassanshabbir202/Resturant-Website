@@ -1,0 +1,165 @@
+.navbarContainer {
+    display: flex;
+    justify-content: space-around;
+    // padding-top: 2vh;
+    // margin-bottom: 1vh;
+    // background-color: #080300;
+    // background-color: #484138;
+    height: 30vh;
+}
+  .logo {
+    height: 180px;
+    border-radius: 50%;
+  }
+  .logoContainer{
+    margin-top: -3vh;
+  }
+  .links {
+    margin-top: 4.8vh;
+  }
+  .links a {
+    margin-left: 2vw;
+    font-size: 20px;
+    color: #fff;
+    text-decoration: none;
+  }
+  .loginContainer {
+    display: flex;
+    margin-top: 4.5vh;
+  }
+  .hamburderMenu{
+    cursor: pointer;
+    display: none;
+  }
+  .hamburger{
+    color: #fff;
+    font-size: 30px;
+    cursor: pointer;
+  }
+  .auth {
+    // margin-top: 2vh;
+  }
+  .loginIcon {
+    color: #fff;
+    font-size: 22px;
+    margin-top: 0.7vh;
+    cursor: pointer;
+  }
+  .login {
+    margin-left: 0.5vw;
+    background: none;
+    border: none;
+    outline: none;
+    color: #fff;
+    font-size: 22px;
+    cursor: pointer;
+  }
+  .register {
+    margin-left: 2.5vw;
+    background-color: #a18123;
+    color: #fff;
+    padding: 0.5rem 1.2rem;
+    border-radius: 70px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+
+  .login a {
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  .register a {
+    color: #fff;
+    text-decoration: none;
+  }
+
+ @media screen and (max-width:840px) {
+  .logo {
+    height: 150px;
+    border-radius: 50%;
+  }
+  .links a {
+    margin-left: 2vw;
+    font-size: 18px;
+    color: #fff;
+    text-decoration: none;
+  }
+  .loginContainer {
+    display: flex;
+    margin-top: 3.5vh;
+  }
+ }
+ @media screen and (max-width:725px) {
+  .loginContainer {
+ display: none;
+  }
+  .links {
+    display: none;
+  }
+    .hamburderMenu{
+      cursor: pointer;
+      display: block;
+      margin-top: 5vh;
+    }
+
+  
+  .logo {
+    height: 150px;
+    border-radius: 50%;
+    margin-left: -8vw;
+  }
+
+
+ }
+
+ @media screen and (max-width:580px) {
+  .loginContainer {
+    display: none;
+     }
+     .links {
+       display: none;
+     }
+       .hamburderMenu{
+        cursor: pointer;
+         display: block;
+         margin-top: 5vh;
+         margin-left: 7vw;
+       }
+   
+     
+     .logo {
+       height: 120px;
+       border-radius: 50%;
+       margin-left: -8vw;
+       margin-top: 2vh;
+     }
+   
+ }
+
+ @media screen and (max-width:405px) {
+  .loginContainer {
+    display: none;
+     }
+     .links {
+       display: none;
+     }
+       .hamburderMenu{
+        cursor: pointer;
+         display: block;
+         margin-top: 5vh;
+         margin-left: 7vw;
+       }
+   
+     
+     .logo {
+       height: 100px;
+       border-radius: 50%;
+       margin-left: -8vw;
+       margin-top: 3vh;
+     }
+   
+ }
